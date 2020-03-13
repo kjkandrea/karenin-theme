@@ -1,0 +1,28 @@
+{
+  "name": "karenin-theme",
+  "version": "1.0.0",
+  "description": "멈무멈무",
+  "main": "index.js",
+  "author": "andrea",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
+    "babel-register": "^6.26.0",
+    "babelify": "^10.0.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-image": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "uglifyify": "^5.0.2"
+  }
+}
